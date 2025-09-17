@@ -12,6 +12,8 @@ public class MaxAndMinNumberInListUsingLamda {
         System.out.println(maxNum);
         int minNum= list.stream().min((a,b)->a.compareTo(b)).orElseThrow(NoSuchElementException::new);
         System.out.println(minNum);
+        minNum.forEach(System.out::print);
+        // //
     }
 
 }
