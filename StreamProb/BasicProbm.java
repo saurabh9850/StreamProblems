@@ -31,6 +31,8 @@ public class BasicProbm {
         List<Integer> list88 = Arrays.asList(2, 4, 4, 6, 6, 8, 8);
         List<Integer> list99=list88.stream().distinct().filter(i->i%2==0).collect(Collectors.toList());
         System.out.println(list99);
+
+        System.out.println("Nikita");
     }
 
 
